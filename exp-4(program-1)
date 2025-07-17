@@ -1,0 +1,30 @@
+//Suyashi Tiwari
+//24070123115
+#include<iostream>
+using namespace std;
+int main(){
+    int a = 4, b= 2;
+    int bitwise_and=a&b;
+    int bitwise_or=a|b;
+    int bitwise_xor=a^b;
+    int bitwise_not=~a;
+    int leftshift=a<<2;
+    int rightshift=3>>a;
+    cout << "AND :"<<bitwise_and<<endl;
+    cout << "OR :"<<bitwise_or<<endl;
+    cout << "XOR :"<<bitwise_xor<<endl;
+    cout << "NOT :"<<bitwise_not<<endl;
+    cout << "Leftshift :"<<leftshift<<endl;
+    cout << "Rightshift :"<<rightshift<<endl;
+    return 0;
+}
+//output
+AND :0
+OR :6
+XOR :6
+NOT :-5
+Leftshift :16
+Rightshift :0
+
+
+=== Code Execution Successful ===
