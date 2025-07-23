@@ -37,6 +37,7 @@ Objective: To perform and display results of various bitwise operations using tw
 
 STEPS:
 1.Start
+
 2.Declare and initialize two integers:
 a ← 4 b ← 2
 
@@ -66,17 +67,27 @@ Objective: To modify a predefined integer by setting and resetting specific bits
 STEPS:
 
 1.Start
+
 2.Initialize integer i ← 76
+
 3.Ask the user to enter the bit position to set
+
 4.Read input into bit_to_be_set
+
 5.Set the specified bit using bitwise OR:
 set ← i | (1 << bit_to_be_set)
+
 6.Ask user to enter the bit position to reset
+
 7.Read input into reset
+
 8.Reset the specified bit using bitwise AND with bitwise NOT:
 reset ← i & ~(1 << reset)
+
 9.Display the result after setting
+
 10.Display the result after resetting
+
 11.End
 
 CONCLUSION:
